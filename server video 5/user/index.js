@@ -10,4 +10,7 @@ User.prototype.hello = function(who) {
 
 console.log("-- user's index.js added --");
 
-exports.User = User;
+//exports.User = User;
+// using module.export for simplyfing add function
+
+module.exports = User;
